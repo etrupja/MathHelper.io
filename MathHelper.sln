@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27520.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathHelper.io", "MathHelper\MathHelper.io.csproj", "{2A103ED0-4AD6-4FC4-AB93-5B9B6B6ADA61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathHelper.io.Test", "MathHelper.io.Test\MathHelper.io.Test.csproj", "{0003C690-5080-496A-8C2A-EA938B6A7F74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathHelper.io.Test", "MathHelper.io.Test\MathHelper.io.Test.csproj", "{0003C690-5080-496A-8C2A-EA938B6A7F74}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

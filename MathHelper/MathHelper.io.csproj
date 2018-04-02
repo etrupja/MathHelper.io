@@ -10,6 +10,6 @@
     <RepositoryUrl>https://github.com/etrupja/MathHelper.io</RepositoryUrl>
     <RepositoryType>Github</RepositoryType>
     <PackageTags>C# Mathematics Formulas</PackageTags>
-    <Version>1.0.0.1</Version>
+    <Version>1.0.0.2</Version>
   </PropertyGroup>
 </Project>
