@@ -26,7 +26,7 @@ This is a math nuget package used to simplify a lot of mathematical operations a
 # PERIMETER (P)
 1. Square - P = 4*s; where s = any side
 2. Rectangle - P = 2*l + 2*w; where l = length and w = width
-3. Triangle - P = s1 + s2, s3; where s is a side
+3. Triangle - P = s1 + s2 + s3; where s is a side
 4. AnyShape - P = the length of all shapes added together
 5. Circle (Circumference) - C = π*d; where π = 3.14 by default and d = diameter
 
