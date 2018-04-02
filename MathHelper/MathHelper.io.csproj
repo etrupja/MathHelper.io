@@ -7,8 +7,9 @@
     <Description>Easy way to work with mathematical formulas</Description>
     <Copyright>2018 Ervis Trupja.</Copyright>
     <PackageProjectUrl></PackageProjectUrl>
-    <RepositoryUrl></RepositoryUrl>
+    <RepositoryUrl>https://github.com/etrupja/MathHelper.io</RepositoryUrl>
     <RepositoryType>Github</RepositoryType>
     <PackageTags>C# Mathematics Formulas</PackageTags>
+    <Version>1.0.0.1</Version>
   </PropertyGroup>
 </Project>
