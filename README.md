@@ -10,3 +10,19 @@ This is a math nuget package used to simplify a lot of mathematical operations a
 7. Average - find the average of multiple numbers.
 8. WeightedAverage - finds the average using the weights of respective values
 
+# Area
+Square - A = s^2; where s = any side of the square
+Rectangle - where l = length and w = width
+Parallelogram - where b = base and h = height
+Triangle - where b = base and h = height
+Circle - where π= 3.14 and r = radius
+Trapezoid
+Sphere - where s= Surface area
+
+
+
+
+
+
+
+
