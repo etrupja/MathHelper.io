@@ -39,7 +39,14 @@ This is a math nuget package used to simplify a lot of mathematical operations a
 6. Sphere - V = (4/3)*π*r^3; where r = radius and π = 3.14 by default
 7. RightCircularCylinder - V = π*r^2*h; where r = radius, v = volume and h = height.
 
-
+# FORMULAS/EQUATIONS
+1. DistanceBetweenTwoPoints - d = sqrt((x2-x1)^2 + (y2-y1)^2), where (x1,y1) and (x2,y2) are two points on a coordinate plane
+2. SlopeOfLine - m = (y2-y)/(x2-x1); where where (x1,y1) and (x2,y2) are two points on a coordinate plane
+3. QuadraticEquation - ax^2 + bx +c = 0; where a and b are coefficients and c is constant
+4. StandartEquationOfCircle - (x-h)^2 + (y-k)^2 = r^2; where r is the radius and (h,k) is the center
+5. QuadraticFormula - x = (-b +- sqrt(b^2 - 4ac))/(2a); where a and b are coefficients and c is constant
+6. PointSlopeEquation - y-y1 = m(x-x1); where m is the slope and the point is (x1,y1)
+7. SlopeInterceptEquation - y = mx +b; where m is the slope nd b is the y-intercept
 
 
 
