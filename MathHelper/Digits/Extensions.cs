@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Linq;
 
 namespace MathHelper.io.Digits
 {
@@ -57,12 +58,7 @@ namespace MathHelper.io.Digits
         /// <returns>Sum of a list of numbers</returns>
         public static int Sum(this List<int> numbers)
         {
-            int sum = 0;
-            foreach (var number in numbers)
-            {
-                sum += number;
-            }
-            return sum;
+            return Enumerable.Sum(numbers);
         }
 
         /// <summary>
