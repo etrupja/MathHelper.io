@@ -12,6 +12,7 @@ namespace MathHelper.io.SurfaceArea
         /// <param name="s">any side of the cube</param>
         /// <returns>Surface Area (SA) of a cube</returns>
         public static double Cube(this double s) => 6 * Math.Pow(s, 2);
+
         /// <summary>
         /// Surfac Area (SA) of a cylinder (lateral)
         /// </summary>

@@ -71,6 +71,7 @@ namespace MathHelper.io.Digits
         {
             return firstNum - secondNum;
         }
+
         /// <summary>
         /// Divides two numbers
         /// </summary>
@@ -78,6 +79,7 @@ namespace MathHelper.io.Digits
         /// <param name="secondNum"></param>
         /// <returns>raport of two numbers</returns>
         public static double Divide(this int firstNum, int secondNum) => firstNum / secondNum;
+
         /// <summary>
         /// Mulitplies two numbers
         /// </summary>

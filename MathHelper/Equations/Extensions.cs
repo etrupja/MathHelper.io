@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Text;
 
 namespace MathHelper.io.Equations
@@ -55,6 +56,7 @@ namespace MathHelper.io.Equations
         /// <param name="b">coefficient</param>
         /// <returns>Quadratic equation using coefficients</returns>
         public static string QuadraticEquation(this double c, double a, double b) => $"y = ({a})x^2 + ({b})x + ({c})";
+
         /// <summary>
         /// Finds the standard equation of a circle ( (x-h)^2 + (y-k)^2 = r^2 ) where r is the radius and (h,k) the center of the circle
         /// </summary>
@@ -94,6 +96,7 @@ namespace MathHelper.io.Equations
 
             return $"{firstPart} + {secondPart} = {r * r}";
         }
+
         /// <summary>
         /// Finds the two root values of a 2nd degree equation (ax^2 + bx + c = 0), where a and b are coefficients and c is a constant
         /// </summary>
@@ -139,6 +142,7 @@ namespace MathHelper.io.Equations
 
             return $"y = {slope}{coeff}";
         }
+
         /// <summary>
         /// Slope-Intercept equation of a line
         /// </summary>
