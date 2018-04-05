@@ -126,8 +126,8 @@ namespace MathHelper.io.Equations
         {
             string slope = "", coeff = "";
 
-            if (x1<0) { slope = $"{m}*(x + {-x1})"; }
-            else if(x1 > 0) { slope = $"{m}*(x - {x1})"; }
+            if (x1 < 0) { slope = $"{m}*(x + {-x1})"; }
+            else if (x1 > 0) { slope = $"{m}*(x - {x1})"; }
             else { slope = $"{m}*x"; }
 
             if (m == 0) { slope = $""; }
@@ -159,6 +159,5 @@ namespace MathHelper.io.Equations
             if (m == 0 && b == 0) return $"y = 0";
             return $"y = {slope}{coeff}";
         }
-
     }
 }

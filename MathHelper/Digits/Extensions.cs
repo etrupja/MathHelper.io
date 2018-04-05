@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Linq;
 
 namespace MathHelper.io.Digits
 {
@@ -57,12 +58,7 @@ namespace MathHelper.io.Digits
         /// <returns>Sum of a list of numbers</returns>
         public static int Sum(this List<int> numbers)
         {
-            int sum = 0;
-            foreach (var number in numbers)
-            {
-                sum += number;
-            }
-            return sum;
+            return Enumerable.Sum(numbers);
         }
 
         /// <summary>
@@ -100,11 +96,7 @@ namespace MathHelper.io.Digits
         {
             int production = (numbers.Count != 0) ? 1 : 0;
 
-            foreach (var number in numbers)
-            {
-                production *= number;
-            }
-            return production;
+            return production * numbers.Aggregate((a, b) => a * b);
         }
 
         /// <summary>
@@ -114,12 +106,7 @@ namespace MathHelper.io.Digits
         /// <returns>average of a list of numbers</returns>
         public static double Average(this List<int> numbers)
         {
-            int sum = 0;
-            foreach (var number in numbers)
-            {
-                sum += number;
-            }
-            return sum / numbers.Count;
+            return numbers.Sum() / numbers.Count;
         }
 
         /// <summary>
@@ -148,9 +135,6 @@ namespace MathHelper.io.Digits
             }
 
             return valueWeightSum / weightSum;
-
         }
-
-
     }
 }
