@@ -135,9 +135,6 @@ namespace MathHelper.io.Digits
             }
 
             return valueWeightSum / weightSum;
-
         }
-
-
     }
 }
