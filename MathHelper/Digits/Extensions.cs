@@ -106,12 +106,7 @@ namespace MathHelper.io.Digits
         /// <returns>average of a list of numbers</returns>
         public static double Average(this List<int> numbers)
         {
-            int sum = 0;
-            foreach (var number in numbers)
-            {
-                sum += number;
-            }
-            return sum / numbers.Count;
+            return numbers.Sum() / numbers.Count;
         }
 
         /// <summary>
