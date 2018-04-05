@@ -96,11 +96,7 @@ namespace MathHelper.io.Digits
         {
             int production = (numbers.Count != 0) ? 1 : 0;
 
-            foreach (var number in numbers)
-            {
-                production *= number;
-            }
-            return production;
+            return production * numbers.Aggregate((a, b) => a * b);
         }
 
         /// <summary>
