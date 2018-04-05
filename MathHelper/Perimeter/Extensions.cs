@@ -44,6 +44,6 @@ namespace MathHelper.io.Perimeter
         /// <param name="d">diameter of the circle</param>
         /// <param name="pi">pi, the default value is 3.14</param>
         /// <returns></returns>
-        public static double Circle(this double d, double pi = 3.14) => pi * d;
+        public static double Circle(this double d) => Math.PI * d;
     }
 }

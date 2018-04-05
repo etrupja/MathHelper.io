@@ -17,8 +17,7 @@ namespace MathHelper.io.SurfaceArea
         /// </summary>
         /// <param name="r">radius of the base of the cylinder</param>
         /// <param name="h">height of the cylinder</param>
-        /// <param name="pi">pi, the default value is 3.14</param>
         /// <returns></returns>
-        public static double Cylinder(this double r, double h, double pi = 3.14) => 2 * pi * r * h;
+        public static double Cylinder(this double r, double h) => 2 * Math.PI * r * h;
     }
 }

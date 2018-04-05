@@ -32,31 +32,27 @@ namespace MathHelper.io.Volume
         /// </summary>
         /// <param name="r">radius of the base</param>
         /// <param name="h">height</param>
-        /// <param name="pi">pi, by default pi=3.14</param>
         /// <returns>volume of a cylinder</returns>
-        public static double Cylinder(this double r, double h, double pi = 3.14) => pi * Math.Pow(r, 2) * h;
+        public static double Cylinder(this double r, double h) => Math.PI * Math.Pow(r, 2) * h;
         /// <summary>
         /// Finds the volume of a cone
         /// </summary>
         /// <param name="r">radius of the base</param>
         /// <param name="h">height</param>
-        /// <param name="pi">pi, by default pi=3.14</param>
         /// <returns>volume of the cone</returns>
-        public static double Cone(this double r, double h, double pi = 3.14) => (1 / 3) * pi * Math.Pow(r, 2) * h;
+        public static double Cone(this double r, double h) => (1 / 3) * Math.PI * Math.Pow(r, 2) * h;
         /// <summary>
         /// Finds the volume of a sphere
         /// </summary>
         /// <param name="r">radius of a sphere</param>
-        /// <param name="pi">pi, by default pi=3.14</param>
         /// <returns>volume of a sphere</returns>
-        public static double Sphere(this double r, double pi = 3.14) => (4 / 3) * pi * Math.Pow(r, 3);
+        public static double Sphere(this double r) => (4 / 3) * Math.PI * Math.Pow(r, 3);
         /// <summary>
         /// Finds the volume of a Right Circular Cylinder
         /// </summary>
         /// <param name="r">radius</param>
         /// <param name="h">height</param>
-        /// <param name="pi">pi, by default pi=3.14</param>
         /// <returns>volume of a right circular cylinder</returns>
-        public static double RightCircularCylinder(this double r, double h, double pi = 3.14) => pi * Math.Pow(r, 2) * h;
+        public static double RightCircularCylinder(this double r, double h) => Math.PI * Math.Pow(r, 2) * h;
     }
 }

@@ -53,11 +53,10 @@ namespace MathHelper.io.Area
         /// Area of a Circle
         /// </summary>
         /// <param name="r">radius of the circle</param>
-        /// <param name="pi">pi, the default value is 3.14</param>
         /// <returns>Area of the Circle</returns>
-        public static double Circle(this double r, double pi = 3.14)
+        public static double Circle(this double r)
         {
-            return pi * r * r;
+            return Math.PI * r * r;
         }
 
         /// <summary>
@@ -76,11 +75,10 @@ namespace MathHelper.io.Area
         /// Area/Surface of a sphere
         /// </summary>
         /// <param name="r">radius of the sphere</param>
-        /// <param name="pi">pi, the default value is 3.14</param>
         /// <returns></returns>
-        public static double Sphere(this double r, double pi = 3.14)
+        public static double Sphere(this double r)
         {
-            return 4 * pi * r * r;
+            return 4 * Math.PI * r * r;
         }
     }
 }
