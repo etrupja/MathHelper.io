@@ -12,6 +12,7 @@ namespace MathHelper.io.Volume
         /// <param name="s">any side</param>
         /// <returns>return the volume of a cube</returns>
         public static double Cube(this double s) => Math.Pow(s, 3);
+
         /// <summary>
         /// Finds the volume of a Rectangular Container
         /// </summary>
@@ -20,6 +21,7 @@ namespace MathHelper.io.Volume
         /// <param name="h">height</param>
         /// <returns>volume of a rectangular container</returns>
         public static double Rectangular(this double l, double w, double h) => l * w * h;
+
         /// <summary>
         /// Finds the volume of a Square Pyramid
         /// </summary>
@@ -27,6 +29,7 @@ namespace MathHelper.io.Volume
         /// <param name="h">height</param>
         /// <returns>volume of a square pyramid</returns>
         public static double SquarePyramid(this double b, double h) => (1 / 3) * Math.Pow(b, 2) * h;
+
         /// <summary>
         /// Finds the volume of a cylinder
         /// </summary>
@@ -34,6 +37,7 @@ namespace MathHelper.io.Volume
         /// <param name="h">height</param>
         /// <returns>volume of a cylinder</returns>
         public static double Cylinder(this double r, double h) => Math.PI * Math.Pow(r, 2) * h;
+
         /// <summary>
         /// Finds the volume of a cone
         /// </summary>
@@ -41,12 +45,14 @@ namespace MathHelper.io.Volume
         /// <param name="h">height</param>
         /// <returns>volume of the cone</returns>
         public static double Cone(this double r, double h) => (1 / 3) * Math.PI * Math.Pow(r, 2) * h;
+
         /// <summary>
         /// Finds the volume of a sphere
         /// </summary>
         /// <param name="r">radius of a sphere</param>
         /// <returns>volume of a sphere</returns>
         public static double Sphere(this double r) => (4 / 3) * Math.PI * Math.Pow(r, 3);
+
         /// <summary>
         /// Finds the volume of a Right Circular Cylinder
         /// </summary>

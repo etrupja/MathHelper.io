@@ -12,6 +12,7 @@ namespace MathHelper.io.Perimeter
         /// <param name="s">any side</param>
         /// <returns>Perimeter of a Square</returns>
         public static double Square(this double s) => 4 * s;
+
         /// <summary>
         /// Finds the perimeter of a rectangle using the length and width
         /// </summary>
@@ -19,6 +20,7 @@ namespace MathHelper.io.Perimeter
         /// <param name="w">length of width</param>
         /// <returns>Area of rectangle</returns>
         public static double Rectangle(this double l, double w) => 2 * l + 2 * w;
+
         /// <summary>
         /// Finds the perimeter of a traingle usings its sides
         /// </summary>
@@ -27,6 +29,7 @@ namespace MathHelper.io.Perimeter
         /// <param name="s3">third side of triangle</param>
         /// <returns></returns>
         public static double Triangle(this double s1, double s2, double s3) => s1 + s2 + s3;
+
         /// <summary>
         /// Finds perimeter of any shape by giving all te sides in a list format
         /// </summary>
@@ -38,6 +41,7 @@ namespace MathHelper.io.Perimeter
             sides.ForEach(side => perimeter += side);
             return perimeter;
         }
+
         /// <summary>
         /// Finds the petimeter of a circle
         /// </summary>
